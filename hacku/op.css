@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+h1 {
+    text-align: center;
+    /* content: "deflair"; */
+    font-weight: 700;
+    
+    font-family: "Inter";
+    /* transform: translateX(50px) translateY(50px); */
+    /* transition: translate 1000ms ease-in-out; */
+    /* animation-name: haha 100000ms; */
+    font-size: 99px;
+}
+
+@keyframes haha {
+    100% {
+        transform: translateX(190px);
+    }
+
+    100% {
+        transform: translateY(190px);
+    }
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+img {
+    border-radius: 50%;
+  }
